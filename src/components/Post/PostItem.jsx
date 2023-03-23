@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PostItem = ({id, title, body}) => {
+const PostItem = ({ title, body}) => {
     return (
         <div className="card">
         <div className="card-body">
