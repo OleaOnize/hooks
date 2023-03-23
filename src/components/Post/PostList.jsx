@@ -9,7 +9,7 @@ const PostList = ({posts}) => {
             {posts.map((post)=>{
                 return (
                    
-                    <Link to={`/comments/${post.id}`}>
+                    <Link to={`/posts/${post.id}`}>
                     <div key={post.id}>
                 <PostItem title={post.title} body={post.body} />
                 </div>
